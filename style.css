@@ -39,12 +39,12 @@ body {
     display: inline-block;
 }
 
-ul {
+.list {
     margin: 0;
     padding: 0px;
 }
 
-li,
+list-elem,
 h3 {
     list-style: none;
 }
@@ -103,7 +103,7 @@ label[for='new-task'] {
     margin: 0 0 20px;
 }
 
-#new-task {
+.new-task {
     width: 318px;
 }
 
@@ -112,7 +112,7 @@ p > button:hover {
 }
 
 /* Task list */
-li {
+.list-elem {
     overflow: hidden;
     padding: 20px 0;
     border-bottom: 1px solid #eee;
@@ -152,7 +152,7 @@ li > button.delete:hover {
 }
 
 /* Completed */
-#completed-tasks label {
+.list_comleted label {
     text-decoration: line-through;
     color: #888;
 }
@@ -162,11 +162,11 @@ ul li input[type=text] {
     display: none;
 }
 
-.editMode input[type=text] {
+.list-elem_edit input[type=text] {
     display: inline-block;
     width: 200px;
 }
 
-.editMode label {
+.list-elem_edit label {
     display: none;
 }
